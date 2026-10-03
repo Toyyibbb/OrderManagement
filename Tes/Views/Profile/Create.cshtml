@@ -1,0 +1,49 @@
+﻿@model Tes.Models.Profile
+
+<h2>Tambah Produk</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label>Fisrt Name</label>
+        <input asp-for="firstName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Last Name</label>
+        <input asp-for="lastName" class="form-control" />
+    </div>
+
+    div class="mb-3">
+    <label>Company Name</label>
+    <input asp-for="companyName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Phone Number</label>
+        <input asp-for="phoneNumber" class="form-control" />
+    </div>
+
+
+    div class="mb-3">
+    <label>Email</label>
+    <input asp-for="email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Job Titlee</label>
+        <input asp-for="jobTitle" class="form-control" />
+    </div>
+
+    div class="mb-3">
+    <label>Identity Image</label>
+    <input asp-for="identityImage" class="form-control" />
+    </div>
+
+  
+
+    <button type="submit" class="btn btn-success">
+        Simpan
+    </button>
+
+</form>

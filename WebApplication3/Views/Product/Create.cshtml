@@ -1,0 +1,21 @@
+﻿@model WebApplication3.Models.Product
+
+<h2>Tambah Produk</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Alamat</label>
+        <input asp-for="Alamat" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Simpan
+    </button>
+
+</form>
